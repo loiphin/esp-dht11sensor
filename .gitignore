@@ -1,0 +1,6 @@
+# This contains actual credentials so it should never be committed.
+settings.py
+
+# pycharm files
+.idea
+*.iml
