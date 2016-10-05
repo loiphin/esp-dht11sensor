@@ -9,7 +9,7 @@ import ujson
 import esp
 
 def measure():
-    d = dht.DHT22(machine.Pin(4))
+    d = dht.DHT11(machine.Pin(4))
     d.measure()
     temp = d.temperature()
     hum = d.humidity()
