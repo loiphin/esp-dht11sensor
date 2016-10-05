@@ -1,2 +1,2 @@
-# esp-dht22sensor
-micropython+esp8266+dht22+thingspeak
+# esp-dht11sensor
+Micropython + ESP8266 + DHT11 + Thingspeak
