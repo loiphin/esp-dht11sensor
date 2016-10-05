@@ -59,7 +59,7 @@ def create_channel(settings):
         'api_key' : APIKEY,
         'field1': 'temperature',
         'field2': 'humidity',
-        'name' : str(wlan.config('mac') ),
+        'name' : 'Daxworkers ESP8266' ),
         'public_flag' : 'false'}
     r = http_client2.post('https://api.thingspeak.com/channels.json', json=channel_definition)
     print(r.json())
