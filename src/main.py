@@ -8,10 +8,6 @@ import os
 import ujson
 import esp
 
-# Variables to set
-WIFI_SSID = 'your-wifi-network'
-WIFI_KEY = 'your-password'
-
 
 def measure():
     d = dht.DHT11(machine.Pin(4))
